@@ -258,4 +258,7 @@ The corpus comes from the problem you chose for your top pain in Week 5: public 
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Sketch the MVP that addresses the top pain from Week 5. One page or three screens: what the user does, what they get back, and what it replaces. Show it to two of the people you interviewed. Ask them to walk through it as if it were real, and write down where they hesitate and what they ask for that is not there. Next week you will recruit people to try it.

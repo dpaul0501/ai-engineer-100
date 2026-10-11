@@ -263,6 +263,9 @@ gradlab ask "What is the slope of x**3 * exp(-x) at x = 2?"
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Write 8 interview questions for the problem statement from [Week 2](week_02.md). Ask about past behavior, not opinions about a future product:
 
 - Good: "Tell me about the last time this happened. What did you do next?"

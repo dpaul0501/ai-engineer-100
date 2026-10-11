@@ -247,4 +247,7 @@ python -m attn.mutate --n 10          # planted bugs: how many do your tests cat
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Ship MVP v0 to the first 3 of the 10 people you recruited in Week 7. Watch each one use it, live or on a screen share, without helping. Write down where each person got stuck, what they tried first, and the one thing they asked for. Fix the worst problem before Week 9, when all 10 get access.

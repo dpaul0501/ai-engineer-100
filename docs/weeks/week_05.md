@@ -14,6 +14,9 @@
 
 ## Month 1 milestone
 
+!!! note "Milestones by path"
+    The milestone below is written for the Product and Academic papers paths. Your Day 30 milestone for each of your two paths is in [Choose your paths](../paths.md#milestones-by-path). The technical work in this week's build is the same for everyone.
+
 Due on **Day 30**. It is part of this week, not extra to it. The Day 30 row in the [Day by day](#day-by-day) table is lighter on purpose.
 
 - **Technical blog post (Medium).**
@@ -275,5 +278,8 @@ Use a tabular dataset from your problem area if you have one. If not, use a publ
 **This week's write-up:** the **Month 1 technical blog post** on Medium, published on Day 30. See [Month 1 milestone](#month-1-milestone).
 
 ## Value-creation step
+
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
 
 Turn your 5 interviews into the **top 3 pains**, ranked by how many people raised them and how much each one costs them today. This is the second half of the Day 30 milestone. Pick the one pain you will build for. In [Week 6](week_06.md) you will sketch an MVP for it and show it to two of the people you interviewed.

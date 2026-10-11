@@ -7,7 +7,7 @@
     - **ML/DL:** how a decoder block is assembled, and how next-token training actually updates it.
     - **AI agents:** how the Model Context Protocol (MCP) lets any agent discover and call your tools.
     - **Software dev:** how logs, metrics, and traces let you answer questions about a running system without guessing.
-- **Goal:** by Sunday you can train a small decoder-only transformer, prove its forward pass matches your NumPy block, reproduce one published claim about it, and show from your own logs that 10 people used your MVP.
+- **Goal:** by Sunday you can train a small decoder-only transformer, prove its forward pass matches your NumPy block, reproduce one published claim about it, and hit the Day 60 milestones of your two paths.
 - **Weekly build:** the **Month 2 milestone**: an arXiv-style technical report on one reproduced claim, plus your MVP exposed as an MCP server and instrumented end to end. See [Weekly build](#weekly-build) and [Month 2 milestone](#month-2-milestone).
 - **AI rule: this week the rule changes.**
     - **Days 57–60: AI pairs, you prove.** AI may write code. Tests come first, and you explain every line it wrote.
@@ -260,6 +260,9 @@ mvp-mcp                                                        # your MVP as an 
 
 ## Month 2 milestone
 
+!!! note "Milestones by path"
+    The milestone below is written for the Product and Academic papers paths. Your Day 60 milestone for each of your two paths is in [Choose your paths](../paths.md#milestones-by-path). The technical work in this week's build is the same for everyone.
+
 Day 60 is the milestone. You need two things: a technical report and an MVP that 10 people have used.
 
 **Communication: an arXiv-style technical report.**
@@ -294,5 +297,8 @@ Day 60 is the milestone. You need two things: a technical report and an MVP that
 **This week's write-up:** the Month 2 arXiv-style technical report, published on GitHub with its source, logs, and figure scripts.
 
 ## Value-creation step
+
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
 
 Get all 10 people you recruited using the MVP by Day 60. For each one, record from your logs how many times they used it and whether they completed the core task, and collect one quote in their own words. Note the two users who used it most. You will ask them a harder question in [Week 10](week_10.md).

@@ -302,6 +302,9 @@ If you plan to file a provisional patent in [Week 13](week_13.md), keep the core
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Propose a paid pilot or a letter of intent to both of your paid-pilot candidates from Week 10. Send each a one-page proposal:
 
 - The problem, in their words from your interviews.

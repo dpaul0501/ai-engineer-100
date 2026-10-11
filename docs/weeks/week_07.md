@@ -262,4 +262,7 @@ Use your Week 6 corpus, so the tokens and neighbors come from your problem area.
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Recruit **10 people who agree to try your MVP by Day 60**. Start with the interviewees and the two people who saw your sketch in Week 6, then ask each for one more name. Send each person the one-page sketch and a direct question: "Will you try this for a week before Day 60?" Count only a clear yes. Track them in a small SQL table (Week 5): name, the pain they have, how you reached them, and the date they agreed.

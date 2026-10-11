@@ -262,4 +262,7 @@ Pick a text source from the problem you chose in the value-creation step: suppor
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Pick one of the three problems you listed in Week 1. Write a one-paragraph problem statement: who has the problem, when it happens, what they do about it today, and what it costs them in time, money, or risk. Do not describe a solution. Then name five people you could interview about it by Day 30. You will write the interview questions in [Week 3](week_03.md).

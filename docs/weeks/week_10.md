@@ -270,4 +270,7 @@ python -m guard.eval --suite evals/injection/        # attack success rate, befo
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Talk to each active user from Week 9. Ask one direct question: what would they pay for this, or what would they trade for it (time, data, an introduction, a testimonial)? Write down the exact answers, including "nothing". Pick the 2 users with the strongest answers as candidates for a paid pilot, and write one sentence each on what the pilot would include.

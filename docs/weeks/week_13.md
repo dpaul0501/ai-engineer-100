@@ -7,7 +7,7 @@
     - **ML/DL:** how to do research: find what is new, survey related work, reproduce a baseline, and write it up.
     - **AI agents:** how to put the agent at the center of your capstone, with an eval gate on every change.
     - **Software dev:** how to write docs a stranger can follow, and how to open-source part of your work.
-- **Goal:** by Day 90 you have submitted a workshop paper or filed a provisional patent, and you have a first paying user or a signed letter of intent.
+- **Goal:** by Day 90 you have hit the Day 90 milestone of your primary path: for example a workshop paper submitted or a provisional patent filed, a feature merged upstream, a hackathon placement, a paying client, or a first paying user.
 - **Weekly build:** the Month 3 milestone, plus the capstone agent behind an eval gate and one open-sourced component. See [Weekly build](#weekly-build).
 - **AI rule (Days 61–100):** AI agents, you review. Agents write code. You write the spec, review the PR, run the evals, and reject bad output.
 
@@ -246,6 +246,9 @@ The capstone's agent, gated by evals, plus one open-sourced component, plus the 
 
 ## Month 3 milestone (Day 90)
 
+!!! note "Milestones by path"
+    The milestone below is written for the Product and Academic papers paths. Your Day 90 milestone for each of your two paths is in [Choose your paths](../paths.md#milestones-by-path). The technical work in this week's build is the same for everyone.
+
 | Milestone | Communication | Users and value |
 |---|---|---|
 | Day 90 | Workshop paper submission, or a provisional patent | First paying user, or a signed letter of intent |
@@ -290,5 +293,8 @@ The capstone's agent, gated by evals, plus one open-sourced component, plus the 
 **This week's write-up: the paper or the patent.** On the paper route, the submitted PDF, plus a public summary if the workshop's anonymity rules allow it. On the patent route, the filed provisional stays private. Publish a short post that you filed, without describing the invention.
 
 ## Value-creation step
+
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
 
 Close your first paying user or signed letter of intent by Day 90. Record what they agreed to, the price, and the condition. Then ask them one question: "What would make you tell a colleague about this?" Their answer shapes the Day 100 launch.

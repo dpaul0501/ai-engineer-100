@@ -289,6 +289,9 @@ If you plan to file a provisional patent in [Week 13](week_13.md), keep the core
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Put the capstone in front of your ~10 users for real use this week, and measure **retention**: who came back.
 
 - Define an active user in one sentence (for example, "completed at least one task").

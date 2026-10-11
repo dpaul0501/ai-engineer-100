@@ -259,4 +259,7 @@ python -m agent "Which of these five cases is most at risk, and why?"
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Run at least three of your five interviews this week, using the questions from [Week 3](week_03.md). Write notes within 24 hours. Record what people did, what it cost them, and what they have tried, not what they say they would do. Finish the remaining interviews by Day 30, when the Month 1 milestone asks for a summary of all five.

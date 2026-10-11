@@ -213,6 +213,9 @@ Your capstone, launched publicly, with a demo that shows real users and real evi
 
 ## Demo day (Day 100)
 
+!!! note "Milestones by path"
+    The milestone below is written for the Product and Academic papers paths. Your Day 100 milestone for each of your two paths is in [Choose your paths](../paths.md#milestones-by-path). The technical work in this week's build is the same for everyone.
+
 | Milestone | Communication | Users and value |
 |---|---|---|
 | Day 100 | Demo day and public launch | Users, revenue, and lessons presented |
@@ -256,6 +259,9 @@ Then 5 minutes of questions. Expect "why would they pay for this?" and "what bre
 **This week's write-up: the launch post and a demo video.** The launch post goes out on Day 100. The demo video is 3 minutes or less: the problem, one real task end to end, and one number.
 
 ## Value-creation step
+
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
 
 Launch publicly on Day 100, and present your users, revenue, and lessons on demo day. Then write your next 30 days in the repo:
 

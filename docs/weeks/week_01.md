@@ -244,4 +244,7 @@ Use the `docs/` folder of [LLM Foundations from Scratch](https://github.com/dpau
 
 ## Value-creation step
 
+!!! note "Your paths"
+    This step is written for the Product path. On other paths, use this time for your next milestone in [Choose your paths](../paths.md).
+
 Write down three problems you have seen people around you struggle with, where search, data, or an AI assistant could help. For each one, name one person you could ask about it. You will interview them in Week 4.
