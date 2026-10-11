@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootcamp Orientation</title>
+<meta name="description" content="Orientation for the 100-day Zero to One AI Engineer bootcamp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --ink: #1b1d26;
+    --muted: #5d6170;
+    --line: #e3e1da;
+    --accent: #4338ca;
+    --accent-soft: #eef0ff;
+    --t1: #4338ca; --t2: #0f766e; --t3: #b45309; --t4: #be185d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12131a; --surface: #1b1d27; --ink: #ecebf2; --muted: #a2a5b4; --line: #2c2f3d;
+      --accent: #a5b4fc; --accent-soft: #23264a;
+      --t1: #a5b4fc; --t2: #5eead4; --t3: #fcd34d; --t4: #f9a8d4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12131a; --surface: #1b1d27; --ink: #ecebf2; --muted: #a2a5b4; --line: #2c2f3d;
+    --accent: #a5b4fc; --accent-soft: #23264a;
+    --t1: #a5b4fc; --t2: #5eead4; --t3: #fcd34d; --t4: #f9a8d4;
+  }
+  html, body { background: var(--bg); }
+  .reveal { font-family: "Inter", system-ui, sans-serif; color: var(--ink); font-size: 30px; }
+  .reveal .slides { text-align: left; }
+  .reveal .slides section { height: 100%; }
+  .reveal h1, .reveal h2, .reveal h3 { font-family: inherit; color: var(--ink); letter-spacing: -0.02em; margin: 0 0 0.5em; }
+  .reveal h1 { font-size: 2.3em; font-weight: 800; line-height: 1.05; }
+  .reveal h2 { font-size: 1.45em; font-weight: 700; }
+  .reveal h3 { font-size: 0.85em; font-weight: 600; }
+  .reveal p, .reveal li { line-height: 1.45; }
+  .reveal ul { margin: 0 0 0 1em; }
+  .reveal li + li { margin-top: 0.35em; }
+  .reveal a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  .reveal code, .reveal pre { font-family: "JetBrains Mono", ui-monospace, monospace; }
+  .kicker { font-size: 0.55em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.8em; }
+  .lede { font-size: 1.05em; color: var(--muted); max-width: 30em; }
+  .muted { color: var(--muted); }
+  .small { font-size: 0.7em; }
+  .grid { display: grid; gap: 0.6em; }
+  .g2 { grid-template-columns: repeat(2, 1fr); }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 0.7em 0.8em; font-size: 0.68em; }
+  .card h3 { margin-bottom: 0.3em; }
+  .card p { margin: 0; color: var(--muted); }
+  .bar { border-top: 5px solid var(--c, var(--accent)); }
+  .tag { display: inline-block; font-size: 0.75em; font-weight: 600; padding: 0.15em 0.6em; border-radius: 99px; background: var(--accent-soft); color: var(--accent); }
+  .ladder { list-style: none; margin: 0; padding: 0; counter-reset: rung; }
+  .ladder li { counter-increment: rung; display: grid; grid-template-columns: 2.2em 9em 1fr; align-items: baseline; gap: 0.5em; padding: 0.35em 0; border-bottom: 1px solid var(--line); font-size: 0.72em; margin: 0; }
+  .ladder li::before { content: counter(rung); font-weight: 800; color: var(--accent); font-size: 1.3em; }
+  .ladder b { font-weight: 700; }
+  .ladder span { color: var(--muted); }
+  table.t { border-collapse: collapse; width: 100%; font-size: 0.6em; }
+  table.t th, table.t td { text-align: left; padding: 0.35em 0.5em; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.t th { color: var(--muted); font-weight: 600; }
+  .post { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 0.9em 1em; font-family: "JetBrains Mono", monospace; font-size: 0.56em; line-height: 1.55; white-space: pre-wrap; }
+  .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.35em; font-size: 0.6em; }
+  .day { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.6em 0.5em; min-height: 6.5em; }
+  .day b { display: block; margin-bottom: 0.3em; }
+  .day.hl { background: var(--accent-soft); border-color: var(--accent); }
+  .phase { display: grid; grid-template-columns: 7em 1fr; gap: 0.6em; align-items: baseline; padding: 0.5em 0; border-bottom: 1px solid var(--line); font-size: 0.75em; }
+  .phase b { color: var(--accent); }
+  .stages { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5em; }
+  .stage { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 0.7em 0.8em; font-size: 0.6em; position: relative; }
+  .stage .wk { font-size: 0.85em; font-weight: 700; color: var(--c, var(--accent)); text-transform: uppercase; letter-spacing: 0.08em; }
+  .stage h3 { margin: 0.2em 0 0.4em; font-size: 1.25em; }
+  .stage p { margin: 0 0 0.5em; color: var(--muted); }
+  .stage .proof { border-top: 1px dashed var(--line); padding-top: 0.45em; color: var(--ink); line-height: 1.4; }
+  .reveal b, .reveal strong { font-weight: 700; }
+  .stage:not(:last-child)::after { content: "→"; position: absolute; right: -0.75em; top: 42%; color: var(--muted); font-size: 1.3em; }
+  table.wk td:first-child { font-weight: 700; color: var(--accent); white-space: nowrap; }
+  table.wk td:nth-child(2) { font-weight: 600; width: 22%; }
+  table.wk td:nth-child(3) { color: var(--muted); width: 30%; }
+  .tests { display: grid; grid-template-columns: 1fr 1fr; gap: 0.25em 1em; font-size: 0.62em; }
+  .tests div { padding: 0.35em 0; border-bottom: 1px solid var(--line); }
+  .tests b { color: var(--accent); }
+  @media (max-width: 700px) { .stages { grid-template-columns: 1fr 1fr; } .stage::after { display: none; } .tests { grid-template-columns: 1fr; } }
+  .center { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+  .reveal .controls, .reveal .progress { color: var(--accent); }
+  @media (max-width: 700px) {
+    .g3, .g4 { grid-template-columns: repeat(2, 1fr); }
+    .week { grid-template-columns: repeat(4, 1fr); }
+    .ladder li { grid-template-columns: 1.8em 1fr; }
+    .ladder li span { grid-column: 2; }
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+  <div class="center">
+    <div class="kicker">Orientation</div>
+    <h1>100 Days:<br>Zero to One AI Engineer</h1>
+    <p class="lede">Learn in depth. Build in the open. Create value someone will use or pay for.</p>
+    <p class="small muted">Press → or space to advance · Esc for overview</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Why this exists</div>
+  <h2>AI can write the code. Your value is everything around it.</h2>
+  <div class="grid g3" style="margin-top:1em">
+    <div class="card bar" style="--c:var(--t1)"><h3>Understand</h3><p>Know why the code works, down to the line, and what breaks when an assumption fails.</p></div>
+    <div class="card bar" style="--c:var(--t2)"><h3>Verify</h3><p>Prove it works with tests that fail when the code is wrong, not tests that only check shapes.</p></div>
+    <div class="card bar" style="--c:var(--t3)"><h3>Ship</h3><p>Put it in front of real people, learn from them, and earn trust in public.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">What you walk away with</div>
+  <h2>Proof, not a certificate</h2>
+  <div class="grid g2">
+    <div class="card bar" style="--c:var(--t1)">
+      <h3>If you are a student</h3>
+      <ul style="margin:0.3em 0 0 1em">
+        <li>100 interview problems, each taken past the solution to variations, failure cases, and real code</li>
+        <li>14 builds on your public GitHub, each one defended live</li>
+        <li>100 public posts: a track record recruiters can read</li>
+        <li>A product with real users, and a paper or patent attempt</li>
+      </ul>
+    </div>
+    <div class="card bar" style="--c:var(--t2)">
+      <h3>If you are a working professional</h3>
+      <ul style="margin:0.3em 0 0 1em">
+        <li>The internals behind the AI tools you already use: attention, training, inference, RAG, agents</li>
+        <li>A disciplined way to work with coding agents: spec, review, eval, reject</li>
+        <li>A public portfolio for moving into AI and ML roles</li>
+        <li>A side product with users, and a first paying customer or letter of intent</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">The path</div>
+  <h2>From preparation to creating value</h2>
+  <div class="stages">
+    <div class="stage" style="--c:var(--t1)"><div class="wk">Weeks 1–3</div><h3>Prepare</h3><p>Fundamentals in four tracks, and the habit of proving your code works.</p><div class="proof">Proof: tested tools, gradient checks, accuracy with an error bar</div></div>
+    <div class="stage" style="--c:var(--t2)"><div class="wk">Weeks 4–7</div><h3>Point it at a real problem</h3><p>Your own data, your own problem area, and five interviews with people who have the problem.</p><div class="proof">Proof: Day 30 article, interview notes, RAG with evals in CI</div></div>
+    <div class="stage" style="--c:var(--t3)"><div class="wk">Weeks 8–10</div><h3>Ship to users</h3><p>Build the model internals from scratch while an MVP reaches ten real people.</p><div class="proof">Proof: usage logs from 10 users, a technical report</div></div>
+    <div class="stage" style="--c:var(--t4)"><div class="wk">Weeks 11–14</div><h3>Create value</h3><p>Production, a first paying user, a paper or patent, and a public launch.</p><div class="proof">Proof: revenue or a letter of intent, demo day</div></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">The structure</div>
+  <h2>Four tracks, Day 1 to Day 100</h2>
+  <div class="grid g4">
+    <div class="card bar" style="--c:var(--t1)"><h3>DSA</h3><p>About 100 problems by pattern. Arrays and hashing → graphs, dynamic programming, mock interviews.</p></div>
+    <div class="card bar" style="--c:var(--t2)"><h3>ML/DL</h3><p>NumPy and vectors → training and serving a small GPT.</p></div>
+    <div class="card bar" style="--c:var(--t3)"><h3>AI agents</h3><p>A single LLM call → a production agent inside your product.</p></div>
+    <div class="card bar" style="--c:var(--t4)"><h3>Software dev</h3><p>git and pytest → CI/CD, security, deployment.</p></div>
+  </div>
+  <p class="small muted" style="margin-top:1em">Every day moves each track one step forward.</p>
+</section>
+
+<section>
+  <div class="kicker">Every week</div>
+  <h2>Learn, build, defend, publish</h2>
+  <div class="week">
+    <div class="day"><b>Mon</b>Four tracks<br><span class="muted">+ post</span></div>
+    <div class="day"><b>Tue</b>Four tracks<br><span class="muted">+ post</span></div>
+    <div class="day"><b>Wed</b>Four tracks<br><span class="muted">+ post</span></div>
+    <div class="day"><b>Thu</b>Four tracks<br><span class="muted">+ post</span></div>
+    <div class="day"><b>Fri</b>Four tracks<br><span class="muted">+ post</span></div>
+    <div class="day hl"><b>Sat</b>Weekly build<br><span class="muted">uses all four tracks</span></div>
+    <div class="day hl"><b>Sun</b>Defend live<br><span class="muted">then the weekly write-up</span></div>
+  </div>
+  <p class="small muted" style="margin-top:1em">Each week opens with an anchor page: what you will learn, the goal, and the challenge.</p>
+</section>
+
+<section>
+  <div class="kicker">The depth ladder</div>
+  <h2>Solving the problem is the first rung</h2>
+  <ul class="ladder">
+    <li><b>Solve</b><span>Write it yourself, with tests. State the complexity.</span></li>
+    <li><b>Vary</b><span>Sorted input? A stream? k instead of 2? What changes?</span></li>
+    <li><b>Break it</b><span>Duplicates, floats, Unicode, overflow, data bigger than memory.</span></li>
+    <li><b>ML lens</b><span>Two Sum with "close to target" becomes nearest-neighbor search.</span></li>
+    <li><b>In the wild</b><span>Two Sum is PostgreSQL's hash join. Read <code>nodeHashjoin.c</code>.</span></li>
+  </ul>
+  <p class="small muted" style="margin-top:0.8em">For ML/DL: learn the concept, read a real implementation, and discuss every parameter.</p>
+</section>
+
+<section>
+  <div class="kicker">Coding with AI</div>
+  <h2>The AI rules loosen as your judgment grows</h2>
+  <div class="phase"><b>Days 1–20</b><span><strong>AI explains, you type.</strong> AI may explain and review. It does not write your code.</span></div>
+  <div class="phase"><b>Days 21–60</b><span><strong>AI pairs, you prove.</strong> AI writes code. Tests come first, and you explain every line.</span></div>
+  <div class="phase"><b>Days 61–100</b><span><strong>AI agents, you review.</strong> You write the spec, review the PR, run evals, and reject bad output.</span></div>
+</section>
+
+<section>
+  <div class="kicker">Every Sunday</div>
+  <h2>The defense</h2>
+  <div class="grid g2">
+    <div>
+      <ul class="small">
+        <li>You demo the weekly build on an input the reviewer chooses.</li>
+        <li>The reviewer points at a line. You explain it and say what breaks if it changes.</li>
+        <li>You show the test that catches that break.</li>
+        <li>You say which parts AI wrote, and how you verified each one.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Scored on</h3>
+      <p>Works · Line-level understanding · Verification · Depth ladder · AI honesty · Shipping</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Every day</div>
+  <h2>One LinkedIn post, one real finding</h2>
+  <div class="grid g2" style="align-items:start">
+<div class="post">Day 4/100 · #100DaysAIEngineer
+
+I broke softmax and the tests still passed.
+
+Removing the max subtraction overflows at
+logit 1000, but the test only used [1, 2, 3].
+
+New test: softmax([1000, 1001]) is finite.
+
+Code: github.com/you/ai-engineer-100</div>
+    <div>
+      <ul class="small">
+        <li><strong>The bar:</strong> one finding with evidence: code, a benchmark, or a real source file.</li>
+        <li>"Today I learned X" is not a finding.</li>
+        <li><strong>The rule:</strong> leave a useful comment on two other participants' posts every day: a test case, a counterexample, or a link.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Every month</div>
+  <h2>From posts to papers, from users to revenue</h2>
+  <table class="t">
+    <tr><th></th><th>Communicate</th><th>Create value</th></tr>
+    <tr><td><span class="tag">Day 30</span></td><td>Technical blog post</td><td>5 interviews about a real problem</td></tr>
+    <tr><td><span class="tag">Day 60</span></td><td>Technical report or paper reproduction</td><td>MVP used by 10 people</td></tr>
+    <tr><td><span class="tag">Day 90</span></td><td>Workshop paper or provisional patent</td><td>First paying user, or a signed letter of intent</td></tr>
+    <tr><td><span class="tag">Day 100</span></td><td>Demo day and public launch</td><td>Users, revenue, and lessons presented</td></tr>
+  </table>
+  <p class="small muted" style="margin-top:0.8em">Going for a patent? File the provisional <em>before</em> you post about that idea.</p>
+</section>
+
+<section>
+  <div class="kicker">Week by week · Weeks 1–7</div>
+  <h2>What each week covers, and what you can prove by Sunday</h2>
+  <table class="t wk" style="font-size:0.52em">
+    <tr><th>Wk</th><th>Focus</th><th>Coverage</th><th>By Sunday you can</th></tr>
+    <tr><td>1</td><td>Lookups, vectors, your first LLM call</td><td>Hashing · NumPy · LLM API · git, pytest</td><td>Build a tested search tool from scratch and defend every line</td></tr>
+    <tr><td>2</td><td>Pointers, matrices, structured output</td><td>Two pointers · linear algebra, probability · JSON output · TDD</td><td>State your LLM tool's accuracy with an error bar</td></tr>
+    <tr><td>3</td><td>Stacks, gradients, tool calls</td><td>Stack, binary search · autograd · tool calling · debugging</td><td>Prove your autograd engine's gradients are right, and let an LLM call it</td></tr>
+    <tr><td>4</td><td>Models and the agent loop</td><td>Lists, trees · regression, metrics · agent loop · REST APIs</td><td>Serve a model on your own data, called by an agent you wrote without a framework</td></tr>
+    <tr><td>5</td><td>Trees, leakage, memory</td><td>Tries · boosting, leakage · memory · SQL</td><td>Prove your model does not leak. <b>Day 30:</b> article + 5 interviews</td></tr>
+    <tr><td>6</td><td>Heaps, neural nets, retrieval</td><td>Heaps · PyTorch · RAG · Docker, CI</td><td>Show with numbers how often retrieval finds the right chunk</td></tr>
+    <tr><td>7</td><td>Graphs, tokens, judges</td><td>BFS/DFS · BPE, embeddings · LLM-as-judge · PR review</td><td>Explain every merge your tokenizer made, and measure your judge's agreement</td></tr>
+  </table>
+</section>
+
+<section>
+  <div class="kicker">Week by week · Weeks 8–14</div>
+  <h2>From model internals to a launched product</h2>
+  <table class="t wk" style="font-size:0.52em">
+    <tr><th>Wk</th><th>Focus</th><th>Coverage</th><th>By Sunday you can</th></tr>
+    <tr><td>8</td><td>Attention and agents that plan</td><td>Backtracking · RoPE, attention · multi-agent · system design</td><td>Write multi-head attention from a blank file and match PyTorch</td></tr>
+    <tr><td>9</td><td>The transformer block and MCP</td><td>1-D DP · block, training · MCP · observability</td><td>Reproduce a published claim. <b>Day 60:</b> report + 10 users</td></tr>
+    <tr><td>10</td><td>Generation and defending your agent</td><td>2-D DP · KV cache, sampling · guardrails · security</td><td>Sample from your own GPT, and report your agent's attack success rate</td></tr>
+    <tr><td>11</td><td>Fine-tuning and coding agents</td><td>Intervals, greedy · LoRA · coding agents · profiling</td><td>Show whether fine-tuning beats the prompt-only baseline</td></tr>
+    <tr><td>12</td><td>Honest evaluation in production</td><td>Weighted graphs · experiment design · cost, latency · deploy</td><td>Run for real users, with cost and p95 latency per task</td></tr>
+    <tr><td>13</td><td>Research and the Month 3 milestone</td><td>Bits · research week · capstone agent · open source</td><td><b>Day 90:</b> paper or patent, and a first paying user or letter of intent</td></tr>
+    <tr><td>14</td><td>Demo day</td><td>Mock interviews · polish · launch checklist</td><td><b>Day 100:</b> demo live, launch, present users and revenue</td></tr>
+  </table>
+</section>
+
+<section>
+  <div class="kicker">The mindset</div>
+  <h2>Believe it, then test it</h2>
+  <p class="small muted" style="margin-bottom:0.8em">Believe you can build something people want in 100 days. Then test that belief every week, at every level.</p>
+  <div class="tests">
+    <div><b>Code:</b> tests that fail when the code is wrong</div>
+    <div><b>Models:</b> evals with an error bar, not one lucky run</div>
+    <div><b>Understanding:</b> a live defense, line by line</div>
+    <div><b>Ideas:</b> interviews about what people already do</div>
+    <div><b>Product:</b> usage logs from real people</div>
+    <div><b>Value:</b> someone pays, or signs a letter of intent</div>
+  </div>
+  <p class="small" style="margin-top:0.9em"><strong>Test the program the same way.</strong> Do Week 1 Day 1 today. If the depth ladder has not changed how you read code by Day 7, it is not for you.</p>
+</section>
+
+<section>
+  <div class="kicker">Community</div>
+  <h2>Four rules</h2>
+  <div class="grid g2">
+    <div class="card bar" style="--c:var(--t1)"><h3>Ship every day</h3><p>A small honest post beats a perfect one that never goes out.</p></div>
+    <div class="card bar" style="--c:var(--t2)"><h3>Be honest about AI</h3><p>Say what AI wrote. Unverified code is not finished.</p></div>
+    <div class="card bar" style="--c:var(--t3)"><h3>Lift two people a day</h3><p>Useful comments on other participants' posts. This is how a cohort becomes a movement.</p></div>
+    <div class="card bar" style="--c:var(--t4)"><h3>Share your work, not the labs</h3><p>Post your own code and findings. The lab specs, tests, and defense questions stay in the cohort.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Before Day 1</div>
+  <h2>Your Day 0 checklist</h2>
+  <ul>
+    <li>Python 3.11+, git, and an editor set up</li>
+    <li>A public GitHub repo for your work, with a README stating your goal</li>
+    <li>An API key for one LLM provider</li>
+    <li>Your Day 0 LinkedIn post: why you are doing this, and what you want to build by Day 100</li>
+    <li>Read the <a href="weeks/week_01/">Week 1 anchor page</a> and <a href="how-it-works/">how each week works</a></li>
+  </ul>
+</section>
+
+<section>
+  <div class="center">
+    <div class="kicker">Day 1 starts now</div>
+    <h1>Learn it deeply.<br>Prove it works.<br>Ship it to someone.</h1>
+    <p class="lede"><a href="./">Back to the site</a></p>
+  </div>
+</section>
+
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+<script>
+  Reveal.initialize({ hash: true, slideNumber: "c/t", center: false, width: 1280, height: 720, margin: 0.06, transition: "fade" });
+</script>
+</body>
+</html>
