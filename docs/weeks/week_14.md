@@ -19,7 +19,7 @@ This week has nine days. Days 92–98 polish, Day 99 is the dress rehearsal, and
 
 ### Mock-interview protocol
 
-Pair with another participant. One interviews, one solves, then swap. Record the session if both agree.
+Pair with another participant from your peer group. One interviews, one solves, then swap, with a moderator observing. Record the session if both agree. This is the same format as the Friday peer mock interviews; this week you do one every day. If a technology leader is available, take one of the eight as an industry mock interview.
 
 | Minutes | What the candidate does |
 |---|---|
@@ -30,7 +30,7 @@ Pair with another participant. One interviews, one solves, then swap. Record the
 
 **Rules.** No AI, no autocomplete, no searching. The interviewer gives at most two hints and writes down when.
 
-**The interviewer scores** four things, 1–4 each: clarifying questions, choice of approach, code correctness, and testing. Write one sentence of feedback for each.
+**The interviewer scores** four things, 1–4 each: clarifying questions, choice of approach, code correctness, and testing. Write one sentence of feedback for each. The moderator checks the scores and adds one note.
 
 **After the mock**, on your own time, take your solution through the [depth ladder](../how-it-works.md#the-depth-ladder): write tests, vary the problem, break an assumption, find the ML lens, and read one real source file. Hints for each problem are below.
 

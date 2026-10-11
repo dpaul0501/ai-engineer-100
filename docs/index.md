@@ -2,6 +2,10 @@
 
 The goal is not to finish a syllabus. The goal is to become someone who creates value: learn a fundamental in depth, build with it, prove it works, explain it in public, and put it in front of people who will use it or pay for it.
 
+**Start preparing from Day 1 of your studies.** You do not need to wait for a degree to start building the profile that makes companies, clients, and collaborators want to work with you.
+
+This is a **peer group**, not a class. Participants review each other's work and run mock interviews with each other. Moderators keep the standard, and technology leaders from industry give feedback on your ideas.
+
 [Open the orientation slides](orientation.html){ .md-button .md-button--primary } [How each week works](how-it-works.md){ .md-button }
 
 ## What you walk away with
@@ -62,8 +66,8 @@ DSA uses a curated list of about 100 problems grouped by pattern, not LeetCode #
 | Rhythm | What you do |
 |---|---|
 | **Every day** | Move all four tracks forward. Post one finding on LinkedIn as **Day N/100**. |
-| **Every week** | Build one working piece that uses all four tracks, defend it live, and publish a longer write-up. |
-| **Every month** | Hit the next milestone on each of your two paths. |
+| **Every week** | Build one working piece that uses all four tracks, defend it live, run a peer mock interview, and publish a longer write-up. |
+| **Every month** | Hit the next milestone on each of your two paths, and present it to technology leaders at the idea review. |
 
 ### Pick two paths
 
@@ -77,7 +81,7 @@ Beyond the core, every participant picks two of five paths to create value, one 
 | **Consultancy** | Someone will pay you to solve their problem |
 | **Product** | Many people want a thing you built |
 
-Only Product asks you to bet on a startup. See [Choose your paths](paths.md) for milestones and suggested combinations.
+See [Choose your paths](paths.md) for milestones and suggested combinations.
 
 ## Week by week
 

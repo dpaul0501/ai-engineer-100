@@ -1,24 +1,25 @@
 # Choose Your Paths
 
-Thinking like an entrepreneur is not the same as becoming one. A company pays you because what you do is worth more to it than your salary. Every path below trains that skill: finding something worth doing, doing it well, and proving it mattered to someone. Only one path, Product, asks you to bet on a startup.
+Start preparing from Day 1 of your studies. You do not need to wait for the degree to finish before you create value. A company pays you because your work is worth more to it than your salary; every path below trains you to find something worth doing, do it well, and show it mattered to someone.
 
 ## How it works
 
-- **Everyone does the core:** the four daily tracks, the daily post, the weekly build, and the Sunday defense.
+- **Everyone does the core:** the four daily tracks, the daily post, the weekly build, the Friday peer mock interview, and the Sunday defense.
 - **You pick two paths:** one **primary** and one **secondary**. Choose them by Day 7, in your Week 1 defense.
+- **You present your progress** at the idea reviews on Days 30, 60, and 90, to technology leaders and moderators. See [the peer group](how-it-works.md#the-peer-group).
 - **Primary path:** you hit every milestone below.
 - **Secondary path:** you hit the Day 60 and Day 100 milestones.
 - You may switch paths once, by Day 35, after your Day 30 milestone shows you what fits.
 
 ## The five paths
 
-| Path | You prove that | Risk | Time to income |
-|---|---|---|---|
-| **Open source** | You can ship code that strangers review and merge | Low | Indirect: it strengthens job applications |
-| **Academic papers** | You can find a real question and answer it with evidence | Low | Indirect: research roles, higher study |
-| **Hackathons** | You can build something that works, under a deadline, for judges | Low | Prizes, sometimes job offers |
-| **Consultancy** | Someone will pay you to solve their problem | Low | Fast: the first project can pay |
-| **Product** | Many people want a thing you built | Highest | Slow and uncertain |
+| Path | You prove that |
+|---|---|
+| **Open source** | You can ship code that strangers review and merge |
+| **Academic papers** | You can find a real question and answer it with evidence |
+| **Hackathons** | You can build something that works, under a deadline, for judges |
+| **Consultancy** | Someone will pay you to solve their problem |
+| **Product** | Many people want a thing you built |
 
 ## Milestones by path
 
@@ -31,7 +32,6 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
     | 90 | A contribution the maintainers recognize: a feature in a release, an issue you now own, or your own package with outside users |
     | 100 | A demo-day talk on what you changed, and why the maintainers accepted it |
 
-    **Evidence that counts:** merged PRs, release notes, downloads of your package. Stars do not count.
 
     **Fits well with:** the Week 7 PR-review practice and the Week 13 open-source week.
 
@@ -44,7 +44,6 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
     | 90 | A workshop paper submitted, or a provisional patent filed |
     | 100 | A demo-day talk on your result, including what did not work |
 
-    **Evidence that counts:** a submission receipt, reviewer feedback, a reproducible repo.
 
     **Patents:** a public post can destroy patentability. File before you publish that idea. See [publishing and patents](how-it-works.md#the-weekly-write-up).
 
@@ -59,7 +58,6 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
     | 90 | A third entry that places or reaches the finals, or one hackathon project continued with real users |
     | 100 | Your best project, presented with what the judges said and what you changed afterward |
 
-    **Evidence that counts:** submissions, placements, judges' feedback, a demo video.
 
     **Fits well with:** the weekly builds. Use them as your hackathon practice runs.
 
@@ -72,7 +70,6 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
     | 90 | A paying client, ideally a repeat one, and a fixed-price offer you can describe in one sentence |
     | 100 | Two case studies with measured results, and your pricing |
 
-    **Evidence that counts:** invoices, testimonials, hours saved or money made for the client.
 
     **Rules:** scope every project in writing before you start. Do not promise what you have not built before. Free work is only a time-boxed pilot.
 
@@ -87,7 +84,6 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
     | 90 | A first paying user, or a signed letter of intent |
     | 100 | Public launch, with users, revenue, and lessons presented |
 
-    **Evidence that counts:** usage logs, retention, payment.
 
     **Fits well with:** the weekly builds, which are written so they become features of your product.
 
@@ -95,7 +91,7 @@ Thinking like an entrepreneur is not the same as becoming one. A company pays yo
 
 | If you are | Try | Why |
 |---|---|---|
-| A student aiming for placements | **Open source** + Hackathons | The two strongest public signals for hiring, with no financial risk |
+| A student aiming for placements | **Open source** + Hackathons | The two strongest public signals for hiring |
 | A student who needs income now | **Consultancy** + Open source | Earns money while building a portfolio |
 | Aiming for research or higher study | **Academic papers** + Open source | A paper, plus code others have reviewed |
 | A working professional | **Open source** + Academic papers, or Consultancy | Builds a public record without leaving your job |
