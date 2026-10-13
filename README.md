@@ -1,10 +1,10 @@
 # 100 Days: Zero to One AI Engineer
 
-The public site for the bootcamp: orientation slides, how each week works, and a direction page for each of the 14 weeks.
+The public site for the program: the philosophy, orientation slides, how each week works, the paths, what you build, and sign-up.
 
 Live site: https://dpaul0501.github.io/ai-engineer-100/
 
-The starter code, acceptance tests, and defense questions live in the private labs repo.
+The daily guide, labs, and starter code live in the private labs repo.
 
 ## Run locally
 
