@@ -4,12 +4,27 @@ Every week opens with an **anchor page** that states what you will learn, the go
 
 ## The weekly rhythm
 
-| Days | What happens |
+The program is **self-paced**. Day N is a step, not a date: start when you are ready, and move on when you finish a day. The daily tasks are in the private daily guide you get after you [sign up](https://forms.gle/RSezwZ7xUM5WRHiE8).
+
+| When you reach | What happens |
 |---|---|
-| Mon–Fri | Learn across all four tracks. Keep a daily learning log in your repo. Post on LinkedIn every day. |
-| Fri | **Peer mock interview:** 45 minutes in pairs, with a moderator observing. |
-| Sat | **Weekly build:** one working piece that uses all four tracks. |
-| Sun | **Defend:** a 15-minute live review. Then publish a longer write-up of your best finding. |
+| The mock interview day of a week | Pair with a peer at a similar stage; a moderator observes |
+| The end of a week | Book your defense with a moderator |
+| Day 30, 60, or 90 | Present at the next monthly idea review |
+| Day 100 | Present at the next demo day |
+
+**Months 1 and 2 (Days 1–60).** Most weeks have seven days:
+
+| Day of the week | What happens |
+|---|---|
+| 1–5 | Study all four dimensions. Keep a daily learning log in your repo. Post on LinkedIn every day. |
+| 5 | **Peer mock interview:** 45 minutes in pairs, with a moderator observing. |
+| 6 | **Build day:** write a design doc first, then build one working piece that uses all four dimensions. |
+| 7 | **Defend:** a 15-minute live review. Then publish a longer write-up of your best finding. |
+
+Weeks 4 and 8 have nine days. They end with the month project, the defense, and the idea review on Day 30 and Day 60.
+
+**Month 3 (Days 61–100).** About 30% of each day is study (one harder DSA problem and one advanced topic). About 70% is the big build for your primary path. Peer mock interviews continue every week, and each week ends with a **sprint review** of your build and your path evidence.
 
 ## The depth ladder
 
@@ -29,7 +44,7 @@ ML/DL concepts follow the same idea with three steps:
 
 ## The defense
 
-Each Sunday you demo the weekly build to a moderator and your peer group, and they probe it:
+At the end of each week you demo the weekly build to a moderator and your peer group, and they probe it:
 
 - The moderator or a peer picks any line. You explain it and say what breaks if it changes.
 - You show the test that would catch that break. If no test catches it, that is a finding to fix.
@@ -41,13 +56,22 @@ This is a peer group, not a class. You learn as much from reviewing other people
 
 | Who | What they do |
 |---|---|
-| **Peers** | Interview each other, review each other's pull requests and posts, and question each other's builds at the Sunday defense |
-| **Moderators** | Run the Sunday defenses, observe and score the peer mock interviews, and keep the standard high |
+| **Peers** | Interview each other, review each other's pull requests and posts, and question each other's builds at the end-of-week defense |
+| **Moderators** | Run the end-of-week defenses and sprint reviews, observe and score the peer mock interviews, and keep the standard high |
 | **Technology leaders** | Industry practitioners who give feedback at the idea reviews and demo day, and run industry mock interviews when they are available |
 
-### Peer mock interviews (every Friday)
+### Peer mock interviews (every week)
 
-Pair with another participant. One interviews and one solves, then you swap. A moderator observes and scores. The protocol, timings, and scoring are in [Week 14](weeks/week_14.md#mock-interview-protocol); use the same format from Week 1.
+Pair with another participant. One interviews and one solves, then you swap. A moderator observes and scores.
+
+#### Mock interview format
+
+| Minutes | What the candidate does |
+|---|---|
+| 0–5 | Restate the problem. Ask about input size, edge cases, and what to return. Write two examples. |
+| 5–10 | Say the brute force and its complexity. Then name the pattern and the better approach. Get a nod before coding. |
+| 10–35 | Code while thinking aloud. Say what each block does and why. |
+| 35–45 | Test by hand: the examples, then an edge case you choose. State the final time and space complexity. |
 
 - Pick one problem from the current week's list that your partner has not solved yet.
 - No AI, no autocomplete, no searching.

@@ -1,5 +1,5 @@
 site_name: "100 Days: Zero to One AI Engineer"
-site_description: A 100-day program across DSA, ML/DL, AI agents, and software engineering. Learn in depth, build in public, create value.
+site_description: A self-paced 100-day program across DSA, ML/DL, AI Engineering, and System Design & Engineering Practice. Learn in depth, build in public, create value.
 site_url: https://dpaul0501.github.io/ai-engineer-100/
 repo_url: https://github.com/dpaul0501/ai-engineer-100
 docs_dir: docs
@@ -8,22 +8,9 @@ nav:
   - Orientation slides: orientation.html
   - How each week works: how-it-works.md
   - Choose your paths: paths.md
-  - Weeks:
-      - "Week 1: Lookups, Vectors, and Your First LLM Call": weeks/week_01.md
-      - "Week 2: Pointers, Matrices, and Structured Output": weeks/week_02.md
-      - "Week 3: Stacks, Gradients, and Tool Calls": weeks/week_03.md
-      - "Week 4: Lists, Trees, Models, and the Agent Loop": weeks/week_04.md
-      - "Week 5: Trees, Leakage, and Memory": weeks/week_05.md
-      - "Week 6: Heaps, Neural Nets, and Retrieval": weeks/week_06.md
-      - "Week 7: Graphs, Tokens, and Judges": weeks/week_07.md
-      - "Week 8: Search Trees, Attention, and Agents That Plan": weeks/week_08.md
-      - "Week 9: Recurrences, the Transformer Block, and Tools Over a Protocol": weeks/week_09.md
-      - "Week 10: Alignment Tables, Generation, and Defending Your Agent": weeks/week_10.md
-      - "Week 11: Intervals, Fine-Tuning, and Coding Agents": weeks/week_11.md
-      - "Week 12: Weighted Graphs, Honest Evaluation, and Production": weeks/week_12.md
-      - "Week 13: Bits, Research, and the Month 3 Milestone": weeks/week_13.md
-      - "Week 14: Mock Interviews, Polish, and Demo Day": weeks/week_14.md
+  - What you build: what-you-build.md
   - Resources: resources.md
+  - Sign up: https://forms.gle/RSezwZ7xUM5WRHiE8
 
 theme:
   name: material
@@ -62,3 +49,7 @@ markdown_extensions:
 
 plugins:
   - search
+
+validation:
+  anchors: warn
+  unrecognized_links: warn

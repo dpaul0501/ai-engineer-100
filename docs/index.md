@@ -6,7 +6,9 @@ The goal is not to finish a syllabus. The goal is to become someone who creates 
 
 This is a **peer group**, not a class. Participants review each other's work and run mock interviews with each other. Moderators keep the standard, and technology leaders from industry give feedback on your ideas.
 
-[Open the orientation slides](orientation.html){ .md-button .md-button--primary } [How each week works](how-it-works.md){ .md-button }
+[Sign up](https://forms.gle/RSezwZ7xUM5WRHiE8){ .md-button .md-button--primary } [Orientation slides](orientation.html){ .md-button } [What you build](what-you-build.md){ .md-button }
+
+**Self-paced.** Start whenever you are ready. Day N is a step, not a date. Peers are matched by the stage they have reached, not by start date.
 
 ## What you walk away with
 
@@ -15,7 +17,7 @@ Proof, not a certificate.
 === "Students"
 
     - 100 interview problems, each taken past the solution to variations, failure cases, and real code that uses the idea
-    - 14 builds on your public GitHub, each one defended live
+    - Weekly builds and two month projects on your public GitHub, each one defended live, grown into one big build in Month 3
     - 100 public posts: a track record recruiters can read
     - Evidence from the two paths you choose: merged open-source work, a paper, hackathon placements, paying clients, or a product with users
 
@@ -28,12 +30,11 @@ Proof, not a certificate.
 
 ## From preparation to creating value
 
-| Stage | Weeks | What happens | Proof |
-|---|---|---|---|
-| **Prepare** | 1–3 | Fundamentals in four tracks, and the habit of proving your code works | Tested tools, gradient checks, accuracy with an error bar |
-| **Point it at a real problem** | 4–7 | Your own data, your own problem area, five interviews with people who have the problem | Day 30 article, interview notes, RAG with evals in CI |
-| **Ship to people** | 8–10 | Model internals from scratch while your work reaches real people: users, maintainers, judges, clients, or reviewers | Your Day 60 path milestones |
-| **Create value** | 11–14 | Production, and your paths' biggest milestones | A merged feature, a paper, a placement, a paying client, or a paying user; demo day |
+| Month | Days | Focus | Study / build | Month project |
+|---|---|---|---|---|
+| **1: Foundations** | 1–30 | All four dimensions, from first principles | ~80% / 20% | A tested AI tool for one real problem |
+| **2: Depth** | 31–60 | The same four dimensions, taken deeper | ~80% / 20% | A deployed system for your problem area: RAG, agent and model, with evals |
+| **3: Advanced + validation** | 61–100 | Advanced topics, and one big build aimed at your chosen path | **30% / 70%** | The Month 1 and 2 projects grown into something bigger: a merged feature, a paper or patent, hackathon wins, a paying client, or a product with users |
 
 ### Believe it, then test it
 
@@ -46,27 +47,27 @@ Believe you can build something people want in 100 days. Then test that belief e
 - **Product:** usage logs from real people
 - **Value:** a maintainer merges it, a reviewer accepts it, judges rank it, or someone pays for it
 
-Test the program the same way. Do [Week 1](weeks/week_01.md) Day 1 today. If the depth ladder has not changed how you read code by Day 7, this program is not for you.
+Test the program the same way. Do Week 1 Day 1 today. If the depth ladder has not changed how you read code by Day 7, this program is not for you.
 
-## Four tracks, running in parallel
+## Four dimensions
 
-Every day moves each track forward by one step. By Day 100 each track has 100 steps behind it.
+Every day in Months 1 and 2 moves each dimension forward. In Month 3, study narrows to advanced topics and the build takes most of the day.
 
-| Track | Daily dose | Day 1 | Day 100 |
-|---|---|---|---|
-| **DSA** | 1 problem, taken through the depth ladder (~45m) | Arrays and hashing | Graphs, dynamic programming, mock interviews |
-| **ML/DL** | 1 concept + 1 code read (~60m) | NumPy and vectors | Training and serving a small GPT |
-| **AI agents** | 1 concept + 1 experiment (~60m) | A single LLM call | A production agent inside your product |
-| **Software dev** | 1 engineering practice (~45m) | git and pytest | CI/CD, security, deployment |
+| Dimension | Daily dose | What it covers |
+|---|---|---|
+| **DSA** | 1–2 problems through the depth ladder (~45m) | 100 problems by pattern, from arrays to dynamic programming and graphs |
+| **ML/DL** | 1 concept, code read, and parameters (~60m) | NumPy and vectors through training and sampling a small GPT |
+| **AI Engineering** | 1 concept and experiment (~60m) | LLM calls, structured output, tools, agents, RAG, evals, MCP |
+| **System Design & Engineering Practice** | 1 practice and 1 design concept (~60m) | *Practice:* git, testing, code review, CI/CD, debugging, observability, security. *Design:* software and ML systems |
 
-DSA uses a curated list of about 100 problems grouped by pattern, not LeetCode #1–100 in order.
+DSA uses a curated list of 100 problems grouped by pattern, not LeetCode #1–100 in order.
 
 ## Every day, every week, every month
 
 | Rhythm | What you do |
 |---|---|
-| **Every day** | Move all four tracks forward. Post one finding on LinkedIn as **Day N/100**. |
-| **Every week** | Build one working piece that uses all four tracks, defend it live, run a peer mock interview, and publish a longer write-up. |
+| **Every day** | Move all four dimensions forward. Post one finding on LinkedIn as **Day N/100**. |
+| **Every week** | Build one working piece that uses all four dimensions, defend it live, run a peer mock interview, and publish a longer write-up. |
 | **Every month** | Hit the next milestone on each of your two paths, and present it to technology leaders at the idea review. |
 
 ### Pick two paths
@@ -85,28 +86,32 @@ See [Choose your paths](paths.md) for milestones and suggested combinations.
 
 ## Week by week
 
-What each week covers (DSA · ML/DL · AI agents · software dev), and what you can prove by the end of it. Each weekly build is a feature of your own product, so the capstone exists by Week 14.
+| Wk | Days | DSA | ML/DL | AI Engineering | System Design & Engineering Practice | Build |
+|---|---|---|---|---|---|---|
+| 1 | 1–7 | Arrays, hashing | NumPy, vectors | LLM calls, tokens, cost | git, pytest, seeded bugs · requirements, estimates | Pocket search CLI |
+| 2 | 8–14 | Two pointers, sliding window | Linear algebra, probability | Structured output, eval sets | TDD, code review · API design, data modeling | Extraction tool with an eval set |
+| 3 | 15–21 | Stack, binary search | Calculus, autograd | Tool calling | Debugging, reading code · caching, indexes · framing an ML problem | Autograd engine as a tool |
+| 4 | 22–30 | Linked lists, trees | Regression, classification, metrics | Agent loop from scratch | CI, packaging · REST, queues · offline vs online metrics | **Month 1 project** · Day 30 idea review |
+| 5 | 31–37 | Trees, tries | Boosting, leakage | Memory, context | SQL, migrations · batch vs stream · training/serving skew | Leak-checked model with a memory agent |
+| 6 | 38–44 | Heaps | Neural nets, PyTorch | RAG | Docker, CI/CD · search systems · ranking | RAG with evals in CI |
+| 7 | 45–51 | Graphs | Tokenization, embeddings, attention | Agent evals, LLM-as-judge | Logging, tracing · rate limits, load balancing · LLM app architecture | Tokenizer and attention, defended |
+| 8 | 52–60 | Backtracking, 1-D DP | Transformer block, small GPT | Multi-agent, MCP | Security, prompt injection · design review of your system | **Month 2 project** · Day 60 idea review |
+| 9 | 61–67 | 2-D DP | *Advanced:* inference, KV cache, sampling | | | Spec for the big build |
+| 10 | 68–74 | Intervals, greedy | *Advanced:* fine-tuning, LoRA, coding agents | | | Sprint 1 |
+| 11 | 75–81 | Advanced graphs | *Advanced:* experiment design | | | Sprint 2 and first outside validation |
+| 12 | 82–88 | Bits, math | *Advanced:* ML systems at scale | | | Sprint 3 |
+| 13 | 89–95 | Mock interviews | *Advanced:* research reading and writing | | | Day 90 idea review |
+| 14 | 96–100 | Mock interviews | *Advanced:* launch checklist | | | **Demo day** |
 
-| Wk | Days | Focus | Coverage | By Sunday you can |
-|---|---|---|---|---|
-| [1](weeks/week_01.md) | 1–7 | [Lookups, Vectors, and Your First LLM Call](weeks/week_01.md) | Hashing · NumPy, vectors · LLM API calls · git, pytest | Build a tested search tool from scratch and defend every line |
-| [2](weeks/week_02.md) | 8–14 | [Pointers, Matrices, and Structured Output](weeks/week_02.md) | Two pointers · linear algebra, probability · structured output · TDD | State your LLM tool's accuracy with an error bar |
-| [3](weeks/week_03.md) | 15–21 | [Stacks, Gradients, and Tool Calls](weeks/week_03.md) | Stack, binary search · autograd · tool calling · debugging | Prove your autograd engine's gradients are right, and let an LLM call it |
-| [4](weeks/week_04.md) | 22–28 | [Lists, Trees, Models, and the Agent Loop](weeks/week_04.md) | Lists, trees · regression, metrics · agent loop · REST APIs | Serve a model on your own data, called by an agent you wrote without a framework |
-| [5](weeks/week_05.md) | 29–35 | [Trees, Leakage, and Memory](weeks/week_05.md) | Tries · boosting, leakage · memory · SQL | Prove your model does not leak. **Day 30:** article + path milestones |
-| [6](weeks/week_06.md) | 36–42 | [Heaps, Neural Nets, and Retrieval](weeks/week_06.md) | Heaps · PyTorch, backprop · RAG · Docker, CI | Show with numbers how often retrieval finds the right chunk |
-| [7](weeks/week_07.md) | 43–49 | [Graphs, Tokens, and Judges](weeks/week_07.md) | BFS/DFS · tokenization, embeddings · LLM-as-judge · PR review | Explain every merge your tokenizer made, and measure your judge's agreement |
-| [8](weeks/week_08.md) | 50–56 | [Search Trees, Attention, and Agents That Plan](weeks/week_08.md) | Backtracking · RoPE, attention · multi-agent · system design | Write multi-head attention from a blank file and match PyTorch |
-| [9](weeks/week_09.md) | 57–63 | [Recurrences, the Transformer Block, and Tools Over a Protocol](weeks/week_09.md) | 1-D DP · transformer block, training · MCP · observability | Reproduce a published claim. **Day 60:** path milestones |
-| [10](weeks/week_10.md) | 64–70 | [Alignment Tables, Generation, and Defending Your Agent](weeks/week_10.md) | 2-D DP · KV cache, sampling · guardrails · security | Sample from your own GPT, and report your agent's attack success rate |
-| [11](weeks/week_11.md) | 71–77 | [Intervals, Fine-Tuning, and Coding Agents](weeks/week_11.md) | Intervals, greedy · LoRA · coding agents · profiling | Show whether fine-tuning beats the prompt-only baseline |
-| [12](weeks/week_12.md) | 78–84 | [Weighted Graphs, Honest Evaluation, and Production](weeks/week_12.md) | Weighted graphs · experiment design · cost, latency · deploy | Run for real users, with cost and p95 latency per task |
-| [13](weeks/week_13.md) | 85–91 | [Bits, Research, and the Month 3 Milestone](weeks/week_13.md) | Bits · research week · capstone agent · open source | **Day 90:** your primary path's biggest milestone |
-| [14](weeks/week_14.md) | 92–100 | [Mock Interviews, Polish, and Demo Day](weeks/week_14.md) | Mock interviews · capstone polish · launch checklist | **Day 100:** demo live and present your evidence |
+In Month 3, the advanced topic replaces the four-dimension study, and the build takes about 70% of each day.
 
 ## What you need
 
 - A laptop that runs Python 3.11 or newer
 - A GitHub account and a LinkedIn profile
-- About 4 hours on weekdays, plus the weekend build
+- About 5 hours a day, including the build
 - An API key for one LLM provider (from Week 1)
+
+## Join
+
+[Sign up here](https://forms.gle/RSezwZ7xUM5WRHiE8). Once you are in, you get access to the daily guide: 100 day pages with the tasks, labs, and starter code.

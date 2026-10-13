@@ -4,7 +4,8 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
 ## How it works
 
-- **Everyone does the core:** the four daily tracks, the daily post, the weekly build, the Friday peer mock interview, and the Sunday defense.
+- **Everyone does the core:** the four dimensions, the daily post, the weekly build, the weekly peer mock interview, and the end-of-week defense.
+- **Month 3 is where your paths take over:** about 70% of each day goes to one big build aimed at your primary path, grown from your Month 1 and Month 2 projects.
 - **You pick two paths:** one **primary** and one **secondary**. Choose them by Day 7, in your Week 1 defense.
 - **You present your progress** at the idea reviews on Days 30, 60, and 90, to technology leaders and moderators. See [the peer group](how-it-works.md#the-peer-group).
 - **Primary path:** you hit every milestone below.
@@ -102,4 +103,4 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
 ## How paths show up in the weekly pages
 
-The weekly builds and the four tracks are the same for everyone. Each week's **Value-creation step** is written for the Product path. On other paths, use that time for your own path's next milestone. The milestone sections in Weeks 5, 9, 13, and 14 work the same way.
+The weekly builds and the four dimensions are the same for everyone in Months 1 and 2. In Month 3, each week's overview gives a sprint goal for every path. Each week's **Value-creation step** is written for the Product path. On other paths, use that time for your own path's next milestone. The milestone sections in Weeks 5, 9, 13, and 14 work the same way.
