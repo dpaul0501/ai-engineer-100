@@ -4,7 +4,7 @@ The public site for the program: the philosophy, orientation slides, how each we
 
 Live site: https://dpaul0501.github.io/ai-engineer-100/
 
-The daily guide, labs, and starter code live in the private labs repo.
+The weekly guide, labs, and starter code are in [ai-engineer-100-labs](https://github.com/dpaul0501/ai-engineer-100-labs).
 
 ## Run locally
 

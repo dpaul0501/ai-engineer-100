@@ -4,7 +4,7 @@ Every week opens with an **anchor page** that states what you will learn, the go
 
 ## The weekly rhythm
 
-The program is **self-paced**. Day N is a step, not a date: start when you are ready, and move on when you finish a day. The daily tasks are in the private daily guide you get after you [sign up](https://forms.gle/RSezwZ7xUM5WRHiE8).
+The program is **self-paced**: one page per week, worked through at your own speed. The weekly tasks and labs are in the free, open [guide](https://github.com/dpaul0501/ai-engineer-100-labs). To join the peer group, [sign up](https://forms.gle/RSezwZ7xUM5WRHiE8).
 
 | When you reach | What happens |
 |---|---|

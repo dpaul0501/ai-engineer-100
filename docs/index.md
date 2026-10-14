@@ -6,7 +6,7 @@ The goal is not to finish a syllabus. The goal is to become someone who creates 
 
 This is a **peer group**, not a class. Participants review each other's work and run mock interviews with each other. Moderators keep the standard, and technology leaders from industry give feedback on your ideas.
 
-[Sign up](https://forms.gle/RSezwZ7xUM5WRHiE8){ .md-button .md-button--primary } [Orientation slides](orientation.html){ .md-button } [What you build](what-you-build.md){ .md-button }
+[Start the guide](https://github.com/dpaul0501/ai-engineer-100-labs){ .md-button .md-button--primary } [Sign up](https://forms.gle/RSezwZ7xUM5WRHiE8){ .md-button } [Orientation slides](orientation.html){ .md-button } [What you build](what-you-build.md){ .md-button }
 
 **Self-paced.** Start whenever you are ready. Day N is a step, not a date. Peers are matched by the stage they have reached, not by start date.
 
@@ -114,4 +114,6 @@ In Month 3, the advanced topic replaces the four-dimension study, and the build 
 
 ## Join
 
-[Sign up here](https://forms.gle/RSezwZ7xUM5WRHiE8). Once you are in, you get access to the daily guide: 100 day pages with the tasks, labs, and starter code.
+The [guide](https://github.com/dpaul0501/ai-engineer-100-labs) is free and open to anyone: one page per week, with the tasks, labs, and starter code. Start whenever you are ready.
+
+To join the peer group (mock interviews, defenses, idea reviews, and demo day), [sign up here](https://forms.gle/RSezwZ7xUM5WRHiE8).
