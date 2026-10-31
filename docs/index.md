@@ -96,7 +96,7 @@ The weekly pages open in order. Month 1 is below; later weeks appear in the guid
 | 3 | 15–21 | **RAG and search:** inverted index, BM25, HNSW, hybrid retrieval, GraphRAG | Graphs, heaps, k-way merge, tries | TF-IDF/BM25, embeddings, nDCG | Chunking, reranking, GraphRAG | ◆ Web search · Autocomplete |
 | 4 | 22–30 | **Month 1 project: the agentic harness:** agent loop, tools, skills, MCP | State machines, backtracking, DAGs | pass@k, bootstrap intervals | Tools, skills, MCP, subagents, permissions | ◆ Chat · Job scheduler |
 
-Every week also has a Kaggle problem, a capstone design, and a live defense. Months 2 and 3 cover deep learning (neural nets, attention, vision, diffusion) and core ML engineering (optimization, training at scale, inference, post-training).
+Every week also has practice projects on real data (a Kaggle competition when one fits the week's statistics), a capstone design, and a live defense. Months 2 and 3 cover deep learning (neural nets, attention, vision, diffusion) and core ML engineering (optimization, training at scale, inference, post-training).
 
 ## What you need
 
