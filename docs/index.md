@@ -6,7 +6,7 @@ The goal is not to finish a syllabus. The goal is to become someone who creates 
 
 This is a **peer group**, not a class. Participants review each other's work and run mock interviews with each other. Moderators keep the standard, and technology leaders from industry give feedback on your ideas.
 
-[Start the guide](https://github.com/dpaul0501/ai-engineer-100-labs){ .md-button .md-button--primary } [Sign up](https://forms.gle/RSezwZ7xUM5WRHiE8){ .md-button } [Orientation slides](orientation.html){ .md-button } [What you build](what-you-build.md){ .md-button }
+[Start the guide](https://dpaul0501.github.io/ai-engineer-100-labs/){ .md-button .md-button--primary } [Sign up](https://forms.gle/RSezwZ7xUM5WRHiE8){ .md-button } [Orientation slides](orientation.html){ .md-button } [What you build](what-you-build.md){ .md-button }
 
 **Self-paced.** Start whenever you are ready. Day N is a step, not a date. Peers are matched by the stage they have reached, not by start date.
 
@@ -32,9 +32,9 @@ Proof, not a certificate.
 
 | Month | Days | Focus | Study / build | Month project |
 |---|---|---|---|---|
-| **1: Foundations** | 1–30 | All four dimensions, from first principles | ~80% / 20% | A tested AI tool for one real problem |
-| **2: Depth** | 31–60 | The same four dimensions, taken deeper | ~80% / 20% | A deployed system for your problem area: RAG, agent and model, with evals |
-| **3: Advanced + validation** | 61–100 | Advanced topics, and one big build aimed at your chosen path | **30% / 70%** | The Month 1 and 2 projects grown into something bigger: a merged feature, a paper or patent, hackathon wins, a paying client, or a product with users |
+| **1: AI Engineer** | 1–30 | Tokens and decoding, prompts, context and memory, RAG and search, agents | ~80% / 20% | An agentic harness built from your own parts |
+| **2: Deep learning** | 31–60 | Neural nets and autograd, attention and a GPT, vision and multimodal, generative models | ~80% / 20% | A generative model, released with a model card |
+| **3: Core ML engineering + validation** | 61–100 | Optimization, training at scale, inference, post-training, and one big build aimed at your chosen path | **30% / 70%** | The Month 1 and 2 projects grown into something bigger: a merged feature, a paper or patent, hackathon wins, a paying client, or a product with users |
 
 ### Believe it, then test it
 
@@ -49,25 +49,26 @@ Believe you can build something people want in 100 days. Then test that belief e
 
 Test the program the same way. Do Week 1 Day 1 today. If the depth ladder has not changed how you read code by Day 7, this program is not for you.
 
-## Four dimensions
+## Five dimensions
 
-Every day in Months 1 and 2 moves each dimension forward. In Month 3, study narrows to advanced topics and the build takes most of the day.
+Every week moves each dimension forward, inside one build. In Month 3, study narrows to advanced topics and the build takes most of the day.
 
 | Dimension | Daily dose | What it covers |
 |---|---|---|
-| **DSA** | 1–2 problems through the depth ladder (~45m) | 100 problems by pattern, from arrays to dynamic programming and graphs |
-| **ML/DL** | 1 concept, code read, and parameters (~60m) | NumPy and vectors through training and sampling a small GPT |
-| **AI Engineering** | 1 concept and experiment (~60m) | LLM calls, structured output, tools, agents, RAG, evals, MCP |
-| **System Design & Engineering Practice** | 1 practice and 1 design concept (~60m) | *Practice:* git, testing, code review, CI/CD, debugging, observability, security. *Design:* software and ML systems |
+| **DSA** | 1–2 problems through the depth ladder (~45m) | Every LeetCode pattern, each placed in the week whose build uses it |
+| **ML** | 1 concept, derived and checked numerically (~45m) | Statistics and core ML: probability, linear algebra, calculus, optimization, measurement |
+| **AI** | The week's build (~2h) | Tokens and decoding, prompts, context and memory, retrieval, agents, then the models themselves |
+| **System Design** | 2 design reps a week | The Google and Meta product, infrastructure, ML and LLM rounds, with numbers |
+| **Software Delivery** | Every build | Spec → contract → test → code, property tests, planted bugs, CI, release |
 
-DSA uses a curated list of 100 problems grouped by pattern, not LeetCode #1–100 in order.
+DSA problems are grouped by pattern and tied to the build, not LeetCode #1–100 in order.
 
 ## Every day, every week, every month
 
 | Rhythm | What you do |
 |---|---|
-| **Every day** | Move all four dimensions forward. Post one finding on LinkedIn as **Day N/100**. |
-| **Every week** | Build one working piece that uses all four dimensions, defend it live, run a peer mock interview, and publish a longer write-up. |
+| **Every day** | Move all five dimensions forward. Post one finding on LinkedIn as **Day N/100**. |
+| **Every week** | Build one working piece that uses all five dimensions, defend it live, run a peer mock interview, and publish a longer write-up. |
 | **Every month** | Hit the next milestone on each of your two paths, and present it to technology leaders at the idea review. |
 
 ### Pick two paths
@@ -86,34 +87,25 @@ See [Choose your paths](paths.md) for milestones and suggested combinations.
 
 ## Week by week
 
-| Wk | Days | DSA | ML/DL | AI Engineering | System Design & Engineering Practice | Build |
-|---|---|---|---|---|---|---|
-| 1 | 1–7 | Arrays, hashing | NumPy, vectors | LLM calls, tokens, cost | git, pytest, seeded bugs · requirements, estimates | Pocket search CLI |
-| 2 | 8–14 | Two pointers, sliding window | Linear algebra, probability | Structured output, eval sets | TDD, code review · API design, data modeling | Extraction tool with an eval set |
-| 3 | 15–21 | Stack, binary search | Calculus, autograd | Tool calling | Debugging, reading code · caching, indexes · framing an ML problem | Autograd engine as a tool |
-| 4 | 22–30 | Linked lists, trees | Regression, classification, metrics | Agent loop from scratch | CI, packaging · REST, queues · offline vs online metrics | **Month 1 project** · Day 30 idea review |
-| 5 | 31–37 | Trees, tries | Boosting, leakage | Memory, context | SQL, migrations · batch vs stream · training/serving skew | Leak-checked model with a memory agent |
-| 6 | 38–44 | Heaps | Neural nets, PyTorch | RAG | Docker, CI/CD · search systems · ranking | RAG with evals in CI |
-| 7 | 45–51 | Graphs | Tokenization, embeddings, attention | Agent evals, LLM-as-judge | Logging, tracing · rate limits, load balancing · LLM app architecture | Tokenizer and attention, defended |
-| 8 | 52–60 | Backtracking, 1-D DP | Transformer block, small GPT | Multi-agent, MCP | Security, prompt injection · design review of your system | **Month 2 project** · Day 60 idea review |
-| 9 | 61–67 | 2-D DP | *Advanced:* inference, KV cache, sampling | | | Spec for the big build |
-| 10 | 68–74 | Intervals, greedy | *Advanced:* fine-tuning, LoRA, coding agents | | | Sprint 1 |
-| 11 | 75–81 | Advanced graphs | *Advanced:* experiment design | | | Sprint 2 and first outside validation |
-| 12 | 82–88 | Bits, math | *Advanced:* ML systems at scale | | | Sprint 3 |
-| 13 | 89–95 | Mock interviews | *Advanced:* research reading and writing | | | Day 90 idea review |
-| 14 | 96–100 | Mock interviews | *Advanced:* launch checklist | | | **Demo day** |
+The weekly pages open in order. Month 1 is below; later weeks appear in the guide as they are released.
 
-In Month 3, the advanced topic replaces the four-dimension study, and the build takes about 70% of each day.
+| Wk | Days | Build | DSA | ML | AI | System Design |
+|---|---|---|---|---|---|---|
+| 1 | 1–7 | **Tokens and decoding:** a BPE tokenizer, samplers, and a decoder that can only output valid JSON | Hashing, heaps, tries, stacks and automata | Maximum likelihood, perplexity, softmax, temperature | Tokenization, sampling, beam search, structured output | ◆ Web crawler · Unique IDs |
+| 2 | 8–14 | **Prompt, context and memory engineering** | Sliding window, LRU/LFU caches, intervals | Entropy, similarity | Context assembly, compaction, short- and long-term memory | ◆ Rate limiter · Distributed cache |
+| 3 | 15–21 | **RAG and search:** inverted index, BM25, HNSW, hybrid retrieval, GraphRAG | Graphs, heaps, k-way merge, tries | TF-IDF/BM25, embeddings, nDCG | Chunking, reranking, GraphRAG | ◆ Web search · Autocomplete |
+| 4 | 22–30 | **Month 1 project: the agentic harness:** agent loop, tools, skills, MCP | State machines, backtracking, DAGs | pass@k, bootstrap intervals | Tools, skills, MCP, subagents, permissions | ◆ Chat · Job scheduler |
+
+Every week also has a Kaggle problem, a capstone design, and a live defense. Months 2 and 3 cover deep learning (neural nets, attention, vision, diffusion) and core ML engineering (optimization, training at scale, inference, post-training).
 
 ## What you need
 
 - A laptop that runs Python 3.11 or newer
 - A GitHub account and a LinkedIn profile
 - About 5 hours a day, including the build
-- An API key for one LLM provider (from Week 1)
 
 ## Join
 
-The [guide](https://github.com/dpaul0501/ai-engineer-100-labs) is free and open to anyone: one page per week, with the tasks, labs, and starter code. Start whenever you are ready.
+The [guide](https://dpaul0501.github.io/ai-engineer-100-labs/) is free and open to anyone: one page per week, with the tasks, labs, and starter code. Start whenever you are ready.
 
 To join the peer group (mock interviews, defenses, idea reviews, and demo day), [sign up here](https://forms.gle/RSezwZ7xUM5WRHiE8).

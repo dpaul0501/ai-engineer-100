@@ -4,7 +4,7 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
 ## How it works
 
-- **Everyone does the core:** the four dimensions, the daily post, the weekly build, the weekly peer mock interview, and the end-of-week defense.
+- **Everyone does the core:** the five dimensions, the daily post, the weekly build, the weekly peer mock interview, and the end-of-week defense.
 - **Month 3 is where your paths take over:** about 70% of each day goes to one big build aimed at your primary path, grown from your Month 1 and Month 2 projects.
 - **You pick two paths:** one **primary** and one **secondary**. Choose them by Day 7, in your Week 1 defense.
 - **You present your progress** at the idea reviews on Days 30, 60, and 90, to technology leaders and moderators. See [the peer group](how-it-works.md#the-peer-group).
@@ -34,7 +34,7 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
     | 100 | A demo-day talk on what you changed, and why the maintainers accepted it |
 
 
-    **Fits well with:** the Week 7 PR-review practice and the Week 13 open-source week.
+    **Fits well with:** the Week 1 package release and the open-source work in Month 3.
 
 === "Academic papers"
 
@@ -48,7 +48,7 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
     **Patents:** a public post can destroy patentability. File before you publish that idea. See [publishing and patents](how-it-works.md#the-weekly-write-up).
 
-    **Fits well with:** the Week 9 reproduction and the Week 13 research week.
+    **Fits well with:** the Week 1 experiment table and the research work in Month 3.
 
 === "Hackathons"
 
@@ -74,7 +74,7 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
     **Rules:** scope every project in writing before you start. Do not promise what you have not built before. Free work is only a time-boxed pilot.
 
-    **Fits well with:** Week 4 (a model behind an API) and Week 6 (RAG over someone's documents).
+    **Fits well with:** Week 3 (search over someone's documents) and Week 4 (an agent that works in their tools).
 
 === "Product"
 
@@ -103,4 +103,4 @@ Start preparing from Day 1 of your studies. You do not need to wait for the degr
 
 ## How paths show up in the weekly pages
 
-The weekly builds and the four dimensions are the same for everyone in Months 1 and 2. In Month 3, each week's overview gives a sprint goal for every path. Each week's **Value-creation step** is written for the Product path. On other paths, use that time for your own path's next milestone. The milestone sections in Weeks 5, 9, 13, and 14 work the same way.
+The weekly builds and the five dimensions are the same for everyone in Months 1 and 2. In Month 3, each week's overview gives a sprint goal for every path. Each week's **Value-creation step** is written for the Product path. On other paths, use that time for your own path's next milestone. The milestone sections in Weeks 5, 9, 13, and 14 work the same way.

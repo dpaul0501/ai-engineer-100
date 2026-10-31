@@ -4,7 +4,7 @@ Every week opens with an **anchor page** that states what you will learn, the go
 
 ## The weekly rhythm
 
-The program is **self-paced**: one page per week, worked through at your own speed. The weekly tasks and labs are in the free, open [guide](https://github.com/dpaul0501/ai-engineer-100-labs). To join the peer group, [sign up](https://forms.gle/RSezwZ7xUM5WRHiE8).
+The program is **self-paced**: one page per week, worked through at your own speed. The weekly tasks and labs are in the free, open [guide](https://dpaul0501.github.io/ai-engineer-100-labs/). To join the peer group, [sign up](https://forms.gle/RSezwZ7xUM5WRHiE8).
 
 | When you reach | What happens |
 |---|---|
@@ -17,9 +17,9 @@ The program is **self-paced**: one page per week, worked through at your own spe
 
 | Day of the week | What happens |
 |---|---|
-| 1–5 | Study all four dimensions. Keep a daily learning log in your repo. Post on LinkedIn every day. |
+| 1–5 | Study all five dimensions. Keep a daily learning log in your repo. Post on LinkedIn every day. |
 | 5 | **Peer mock interview:** 45 minutes in pairs, with a moderator observing. |
-| 6 | **Build day:** write a design doc first, then build one working piece that uses all four dimensions. |
+| 6 | **Build day:** write a design doc first, then build one working piece that uses all five dimensions. |
 | 7 | **Defend:** a 15-minute live review. Then publish a longer write-up of your best finding. |
 
 Weeks 4 and 8 have nine days. They end with the month project, the defense, and the idea review on Day 30 and Day 60.
