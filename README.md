@@ -20,3 +20,7 @@ Open `http://127.0.0.1:8000`. The orientation deck is at `/orientation.html`. Us
 ## Publish
 
 Every push to `main` builds the site with `mkdocs build --strict` and deploys it to GitHub Pages through `.github/workflows/pages.yml`.
+
+## License
+
+The content of this site is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); the full text is in [`LICENSE`](LICENSE). You may share and adapt it for any purpose, including commercially, as long as you credit "AI Engineer 100, Debjyoti Paul", link to the license, and note any changes. Linked papers, videos, posts and problems remain under their owners' terms.

@@ -32,7 +32,7 @@ Proof, not a certificate.
 
 | Month | Days | Focus | Study / build | Month project |
 |---|---|---|---|---|
-| **1: AI Engineer** | 1–30 | Tokens and decoding, prompts, context and memory, RAG and search, agents | ~80% / 20% | An agentic harness built from your own parts |
+| **1: AI Engineer** | 1–30 | Tokenization, prompts, context and memory, RAG and search, agents | ~80% / 20% | An agentic harness built from your own parts |
 | **2: Deep learning** | 31–60 | Neural nets and autograd, attention and a GPT, vision and multimodal, generative models | ~80% / 20% | A generative model, released with a model card |
 | **3: Core ML engineering + validation** | 61–100 | Optimization, training at scale, inference, post-training, and one big build aimed at your chosen path | **30% / 70%** | The Month 1 and 2 projects grown into something bigger: a merged feature, a paper or patent, hackathon wins, a paying client, or a product with users |
 
@@ -57,7 +57,7 @@ Every week moves each dimension forward, inside one build. In Month 3, study nar
 |---|---|---|
 | **DSA** | 1–2 problems through the depth ladder (~45m) | Every LeetCode pattern, each placed in the week whose build uses it |
 | **ML** | 1 concept, derived and checked numerically (~45m) | Statistics and core ML: probability, linear algebra, calculus, optimization, measurement |
-| **AI** | The week's build (~2h) | Tokens and decoding, prompts, context and memory, retrieval, agents, then the models themselves |
+| **AI** | The week's build (~2h) | Tokenization, prompts, context and memory, retrieval, agents, then the models themselves |
 | **System Design** | 2 design reps a week | The Google and Meta product, infrastructure, ML and LLM rounds, with numbers |
 | **Software Delivery** | Every build | Spec → contract → test → code, property tests, planted bugs, CI, release |
 
@@ -91,7 +91,7 @@ The weekly pages open in order. Month 1 is below; later weeks appear in the guid
 
 | Wk | Days | Build | DSA | ML | AI | System Design |
 |---|---|---|---|---|---|---|
-| 1 | 1–7 | **Tokens and decoding:** a BPE tokenizer, samplers, and a decoder that can only output valid JSON | Hashing, heaps, tries, stacks and automata | Maximum likelihood, perplexity, softmax, temperature | Tokenization, sampling, beam search, structured output | ◆ Web crawler · Unique IDs |
+| 1 | 1–7 | **[Tokenization](https://dpaul0501.github.io/ai-engineer-100-labs/week_01/):** byte-level BPE from first principles, with a tested tokenizer of your own | Hashing, sliding windows, greedy vs optimal, Huffman, heaps with lazy deletion, linked lists | Zipf's law, the length / vocabulary trade-off, entropy and bits per byte | The token tax, split patterns, glitch tokens | Training on terabytes · serving a tokenizer |
 | 2 | 8–14 | **Prompt, context and memory engineering** | Sliding window, LRU/LFU caches, intervals | Entropy, similarity | Context assembly, compaction, short- and long-term memory | ◆ Rate limiter · Distributed cache |
 | 3 | 15–21 | **RAG and search:** inverted index, BM25, HNSW, hybrid retrieval, GraphRAG | Graphs, heaps, k-way merge, tries | TF-IDF/BM25, embeddings, nDCG | Chunking, reranking, GraphRAG | ◆ Web search · Autocomplete |
 | 4 | 22–30 | **Month 1 project: the agentic harness:** agent loop, tools, skills, MCP | State machines, backtracking, DAGs | pass@k, bootstrap intervals | Tools, skills, MCP, subagents, permissions | ◆ Chat · Job scheduler |

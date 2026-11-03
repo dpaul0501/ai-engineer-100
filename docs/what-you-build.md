@@ -6,7 +6,7 @@ Every week ends with something that runs, is tested, and is defended live. The w
 
 | Week | Build | By the end you can |
 |---|---|---|
-| 1 | `tok`: a BPE tokenizer, samplers, and a JSON-constrained decoder, on TestPyPI | Explain what a token costs, choose a decoding method, and guarantee valid structured output |
+| 1 | `tok.bpe`: a byte-level BPE tokenizer with golden, property and differential tests, plus a token-tax study with error bars | Explain what a token costs, why greedy BPE works and where it fails, and how to train and serve a tokenizer at scale |
 | 2 | A context and memory library for long-running assistants | Fit the right context in a token budget and keep facts correct across months |
 | 3 | `minisearch`: an inverted index, BM25, HNSW and hybrid retrieval with reranking | Show with numbers how often retrieval finds the right document, and why |
 | 4 | An agentic harness: the loop, tools, skills, MCP, using your Week 1–3 parts | **Month 1 project:** an agent built on code you wrote and can defend, at the Day 30 idea review |

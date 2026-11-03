@@ -2,6 +2,7 @@ site_name: "100 Days: Zero to One AI Engineer"
 site_description: A self-paced 100-day program across DSA, ML, AI, System Design, and Software Delivery. Learn in depth, build in public, create value.
 site_url: https://dpaul0501.github.io/ai-engineer-100/
 repo_url: https://github.com/dpaul0501/ai-engineer-100
+copyright: Text by Debjyoti Paul, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
 docs_dir: docs
 nav:
   - Home: index.md
